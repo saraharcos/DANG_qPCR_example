@@ -16,7 +16,7 @@ A qPCR standard curve is useful for determining the efficiency of a qPCR reactio
 <img src="qPCR_layout.png"  width="50%">
 
 
-A CT (cycle threshold) value is obtained for each dilution using an Applied Biosystems machine. The output file can be downloaded here. The tab-separated file contains many more columns than what is required for this exercise.
+A CT (cycle threshold) value is obtained for each dilution using an Applied Biosystems machine. The output file can be downloaded [here](https://raw.githubusercontent.com/saraharcos/DANG_qPCR_example/main/20230908_PB1wt_efficiency.txt). (On your web browser menu, go to File -> Save As). The tab-separated file contains many more columns than what is required for this exercise.
 
 Next, the CT values are plotted and used to fit a linear model. The plot below was made using ggplot2, but feel free to use any plotting library you like.
 
